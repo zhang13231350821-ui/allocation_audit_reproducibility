@@ -1,0 +1,3 @@
+# Preserve byte-exact content: this package ships MANIFEST.sha256 hashes,
+# so Git must not rewrite line endings on checkout.
+* -text
