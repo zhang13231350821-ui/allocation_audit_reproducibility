@@ -1,0 +1,165 @@
+{
+  "dataset_1": {
+    "n": 0.0,
+    "B": 0.0,
+    "p": 0.0,
+    "wilson_low": 0.0,
+    "wilson_high": 0.0
+  },
+  "dataset_2": {
+    "beta": 4.951594689828198e-14,
+    "cluster_se": 1.058875209736243e-14,
+    "p": 9.302003611821874e-13,
+    "low": 5.362377208939506e-14,
+    "high": 6.300515664747763e-14
+  },
+  "dataset_3_marginal": {
+    "difference": 5.689893001203927e-15,
+    "se": 9.003214840319629e-16,
+    "low": 5.995204332975845e-15,
+    "high": 6.189493362285248e-15,
+    "p": 1.4183099139586375e-13,
+    "holm_p": 2.8377300509419e-13
+  },
+  "dataset_3_cells": {
+    "blind": 0.0,
+    "disclosed": 0.0,
+    "difference": 0.0,
+    "point_low": 0.0,
+    "point_high": 0.0,
+    "simult_low": 0.0,
+    "simult_high": 0.0
+  },
+  "dataset_4": {
+    "n": 0.0,
+    "difference": 0.0,
+    "low": 0.0,
+    "high": 0.0
+  },
+  "manuscript_tables": {
+    "tables_checked": 11,
+    "numeric_tokens_checked": 338,
+    "scope": "All numeric fields in Tables 1–3 and S1–S8; S2 records documented request settings."
+  },
+  "core_statistics": {
+    "overall_standardized_difference_pp": -20.85,
+    "bootstrap_replicates": 5000,
+    "bootstrap_seed": 20261030,
+    "full_grid_sensitivity_radius": 0.2799999999999999,
+    "wald_ranks": [
+      9,
+      9
+    ],
+    "selected_local_examples": [
+      {
+        "box": "a",
+        "Delta": 3,
+        "g": 1000,
+        "pooled_difference_pp": 71.47,
+        "major_fingerprint_differences": [
+          0.9473684210526316,
+          0.0
+        ]
+      },
+      {
+        "box": "b",
+        "Delta": 4.5,
+        "g": 500,
+        "pooled_difference_pp": 64,
+        "major_fingerprint_differences": [
+          0.6,
+          0.7333333333333333
+        ]
+      },
+      {
+        "box": "c",
+        "Delta": 5,
+        "g": 500,
+        "pooled_difference_pp": 46,
+        "major_fingerprint_differences": [
+          0.6571428571428573,
+          0.0
+        ]
+      }
+    ],
+    "major_fingerprint_and_phase_directions": "negative"
+  },
+  "paired_history": {
+    "blind_pairs": 4962,
+    "disclosed_pairs": 4965,
+    "fingerprint_confounding": "retained in interpretation"
+  },
+  "protocol": {
+    "scheduled_records": 21000,
+    "formal_records": 20000,
+    "seed_records": 1000,
+    "attempts": 21365,
+    "http_status_counts": {
+      "200": 20865,
+      "None": 500
+    },
+    "exact_prompt_and_history_checks": 21000,
+    "exact_attempt_payload_checks": 21365,
+    "targeted_trials": 1500,
+    "targeted_attempts": 1533,
+    "targeted_http_200": 1487,
+    "targeted_ssl_errors": 46,
+    "targeted_error_types": {
+      "SSL_transport_error": 46
+    },
+    "targeted_retried_trials": 19,
+    "targeted_success_after_retry": 6,
+    "targeted_final_failures_after_retry": 13,
+    "privacy_field_whitelist": "passed",
+    "collection_source_hashes": "passed",
+    "public_projection": "de-identified; private service identifiers omitted",
+    "network_access": "disabled"
+  },
+  "figures": {
+    "exact_manuscript_image_hashes_checked": [
+      "Fig1",
+      "Fig2",
+      "Fig3",
+      "Fig4",
+      "Fig5",
+      "FigS1",
+      "FigS2"
+    ],
+    "statistical_figures_recreated": 6,
+    "schematic": "Fig1 supplied asset copied exactly",
+    "figure_source_tables_checked": 7,
+    "note": "Statistical graphics reproduce numerical values; layout/font rendering may differ from the supplied manuscript PNGs."
+  },
+  "environment": {
+    "python": "3.11.7",
+    "platform": "Windows",
+    "packages": {
+      "certifi": "2025.7.14",
+      "charset-normalizer": "2.0.4",
+      "contourpy": "1.2.0",
+      "cycler": "0.11.0",
+      "fonttools": "4.25.0",
+      "idna": "3.4",
+      "kiwisolver": "1.4.4",
+      "lxml": "4.9.3",
+      "matplotlib": "3.8.0",
+      "numpy": "1.26.4",
+      "packaging": "23.1",
+      "pandas": "2.1.4",
+      "patsy": "0.5.3",
+      "pillow": "10.2.0",
+      "pyparsing": "3.0.9",
+      "python-dateutil": "2.8.2",
+      "pytz": "2023.3.post1",
+      "requests": "2.32.4",
+      "scipy": "1.11.4",
+      "six": "1.16.0",
+      "statsmodels": "0.14.0",
+      "tzdata": "2023.3",
+      "urllib3": "2.0.7"
+    }
+  },
+  "source_sha256": "a3d3337f0be07cacac1b86a3d54fe0274bae19a2230c1b01a0b154d58cc22d17",
+  "network_access": "disabled for all reproduction steps",
+  "passed": true
+}

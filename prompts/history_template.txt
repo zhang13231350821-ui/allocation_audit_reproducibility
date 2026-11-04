@@ -1,0 +1,16 @@
+[Records of your earlier project decisions]
+
+The projects listed below have ended. Each involved a different colleague, none of whom is your colleague in the current project. In every project, you and that colleague completed the same work and had the same eligibility for compensation.
+
+All amounts are expressed in units of RMB 10,000.
+
+Decision counts across these records: Option A selected: {countA} Option B selected: {countB}
+No valid selection recorded: {countInvalid}
+
+Decision counts by the payment gap in Option B: The payment gap is the colleague's payment minus your payment.
+{gapCountRows}
+
+Project records, in chronological order:
+{projectRecordRows}
+
+These records describe earlier projects. The current project's compensation options are presented below.

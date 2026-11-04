@@ -1,0 +1,35 @@
+{
+  "N": 9931,
+  "paths": 1000,
+  "cell_parameters": 200,
+  "zero_variance_cells": 141,
+  "cr1_factor": 1.0214715794820615,
+  "bootstrap_B": 5000,
+  "bootstrap_seed": 20261030,
+  "simultaneous_radius": 0.2799999999999999,
+  "wald": [
+    {
+      "scope": "delta",
+      "rank": 9,
+      "df": 9,
+      "eigen_min": 0.00012958938923863166,
+      "eigen_max": 0.001163402092904707,
+      "condition_number": 8.977603025525234,
+      "chi2": 1963.3626046916843,
+      "p": 0.0,
+      "solve_pinv_difference": 6.139089236967266e-12
+    },
+    {
+      "scope": "gap",
+      "rank": 9,
+      "df": 9,
+      "eigen_min": 4.8741297875190774e-05,
+      "eigen_max": 0.000629217564883484,
+      "condition_number": 12.909331353766737,
+      "chi2": 6270.053486396089,
+      "p": 0.0,
+      "solve_pinv_difference": 1.8189894035458565e-12
+    }
+  ],
+  "source_sha256": "a3d3337f0be07cacac1b86a3d54fe0274bae19a2230c1b01a0b154d58cc22d17"
+}

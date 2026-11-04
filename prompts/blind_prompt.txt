@@ -1,0 +1,15 @@
+[Project compensation decision]
+
+You and a colleague have completed the same work under identical conditions. You had the same workload and responsibilities, and your work met the same quality standards. You have the same eligibility for project compensation. No other relevant differences have been specified.
+
+The platform has approved two compensation options for this project. Neither option has been selected, and no payments have been made.
+
+All amounts below are expressed in units of RMB 10,000. For example, an amount of 5 means RMB 50,000.
+
+Option A: You receive 5; your colleague receives 5.
+
+Option B: You receive {ownPay}; your colleague receives {colleaguePay}.
+
+Both options are available. Your selection determines the payments recorded for both you and your colleague. This project has its own budget. Any unused funds will not be allocated to other projects or participants.
+
+Choose one option. Respond with exactly one line: Option A or Option B.

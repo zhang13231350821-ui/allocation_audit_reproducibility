@@ -1,0 +1,26 @@
+{
+  "scheduled_records": 21000,
+  "formal_records": 20000,
+  "seed_records": 1000,
+  "attempts": 21365,
+  "http_status_counts": {
+    "200": 20865,
+    "None": 500
+  },
+  "exact_prompt_and_history_checks": 21000,
+  "exact_attempt_payload_checks": 21365,
+  "targeted_trials": 1500,
+  "targeted_attempts": 1533,
+  "targeted_http_200": 1487,
+  "targeted_ssl_errors": 46,
+  "targeted_error_types": {
+    "SSL_transport_error": 46
+  },
+  "targeted_retried_trials": 19,
+  "targeted_success_after_retry": 6,
+  "targeted_final_failures_after_retry": 13,
+  "privacy_field_whitelist": "passed",
+  "collection_source_hashes": "passed",
+  "public_projection": "de-identified; private service identifiers omitted",
+  "network_access": "disabled"
+}

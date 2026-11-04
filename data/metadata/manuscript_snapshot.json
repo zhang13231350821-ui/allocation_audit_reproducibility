@@ -1,0 +1,21 @@
+{
+  "main": {
+    "sha256": "f7bc227e1e1aab5cd29e1dfa5c8b680c29ed47ad889c2b25629e7d2cc40a8185",
+    "bytes": 1768758,
+    "label": "main manuscript"
+  },
+  "supp": {
+    "sha256": "3dc745802dd808f5fab79a7d1d9414ed3a93b63004ad02f638f7158f3f8f4fef",
+    "bytes": 550915,
+    "label": "supplementary material"
+  },
+  "figure_sha256": {
+    "Fig1": "3802525d30f623e6c3e8586cedef6633642812917043c6b16259460e17f00181",
+    "Fig2": "1101bd7a70ced3c68671c67d0425d3aed34717e147f5bf1782ffa10d57293a9a",
+    "Fig3": "550b2935365cb1ee9e9b3fc9657d40f225c3644391bcdb47152a863fa2868e8a",
+    "Fig4": "7958d413e73ace7acd59e711e0cf3089a14487f2d28046885ca2479f8959ebeb",
+    "Fig5": "b333cbd343e75333e6617035ee098f0b42d1353a6200c461ae6f507c3c6bb0f8",
+    "FigS1": "04f1de516678041d9e22c1d057490c46e0c58757273f6259c2c4c62f6120cbbf",
+    "FigS2": "834ee54782af1ab1cdbc90e2aa3172f2e33a6be8d71152190c2559ef11571ac5"
+  }
+}

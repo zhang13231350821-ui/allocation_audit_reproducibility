@@ -1,0 +1,17 @@
+{
+  "experiment_core.py": {
+    "original_sha256": "5af52c8828d43d1b273661cc639d2433a1dc33002b05b71bad374164a5df162b",
+    "package_sha256": "5f30af646a29745f37c5ff9cc6c63eb16f75dc87ef44645b2f45e77b23383329",
+    "change": "module and file names only; collection logic unchanged"
+  },
+  "run_experiment.py": {
+    "original_sha256": "4e4487bb901b9b056659b338fa76d39e36c2bfd2dd573724f21d4121c2b6ddf0",
+    "package_sha256": "a5b78ad9157d1861489f33ef0e560af04469cf4566bcb39f38f2390c6aba508a",
+    "change": "module and file names only; collection logic unchanged"
+  },
+  "resume_experiment.py": {
+    "original_sha256": "e632d124112aedb61d8939a5a4623248bfb3b9b65d50e1f95a7583a66bab28f8",
+    "package_sha256": "5988ec06c92acb15f821f4cc355a298eb63c36f193d777763641058a3aa38382",
+    "change": "module and file names only; collection logic unchanged"
+  }
+}

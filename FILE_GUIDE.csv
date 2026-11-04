@@ -1,0 +1,73 @@
+﻿relative_path,category_zh,purpose_zh,article_location
+.gitignore,运行配置,避免把缓存、虚拟环境和新采集输出提交到仓库,全包
+.python-version,运行环境,记录已测试的Python版本3.11.7,全包
+FILE_GUIDE.csv,逐文件说明,逐项说明本包每个文件的用途和论文对应位置,全包
+MANIFEST.sha256,完整性清单,已交付文件的SHA-256哈希；清单自身不参与哈希,全包
+README.md,使用说明,英文使用入口及中文提示：安装、运行、目录、数据口径和发布状态,全包
+data/derived/Supplementary_Dataset_1_cells.csv,补充数据集,400个H×D×Delta×g单元的计数、B率和Wilson区间,Dataset 1；Figures 2、S1
+data/derived/Supplementary_Dataset_2_coefficients.csv,补充数据集,M1/M2/M3系数与CR1字段；结构零方差推断字段留空,Dataset 2；S6
+data/derived/Supplementary_Dataset_3_cell_framing.csv,补充数据集,100个H0单元的Disclosed-minus-Blind差异及区间,Dataset 3；Figure 4
+data/derived/Supplementary_Dataset_3_marginal_framing.csv,补充数据集,总体及Delta/g边际框架差异、CR1和Holm字段,Dataset 3；Table 2
+data/derived/Supplementary_Dataset_4_history.csv,补充数据集,H1-minus-H0配对历史差异、有效对数与点态区间,Dataset 4；Figure S2；Table 3
+data/metadata/coefficient_boundary_normalization.json,边界处理记录,记录Dataset 2中91个结构零方差项的推断字段规范化；点估计及论文表格数字未改,Dataset 2；S6、S10
+data/metadata/collection_code_provenance.json,代码来源,原采集代码与中性命名后的代码哈希，说明只改了模块名称,Methods 3.3；S1–S5
+data/metadata/manuscript_snapshot.json,版本对应,当前主文、补充材料和七张内嵌图的哈希，不含个人路径,当前核对稿
+data/metadata/manuscript_tables.json,核对基准,从当前稿件提取的Table 1–3和S1–S8原显示值，用于比较重算结果,Tables 1–3、S1–S8
+data/metadata/run_metadata.json,实验元数据,公开接口配置、采集时间、随机化/Bootstrap种子及模板/设计哈希,Methods 3.3；Table S2
+data/processed/formal_trials.csv,正式逐条数据,"20,000条正式记录，保留135条无效结果；统计分析主输入",主文与补充全部统计结果
+data/processed/seed_trials.csv,种子逐条数据,"1,000条H1种子结果，记录历史来源，不计入正式样本",Methods 3.2；S1、S4
+data/raw/request_attempts.jsonl.gz,公开脱敏记录,"21,365条尝试记录，用于核对传输重试、最终尝试关联和S8计数",S5；S8
+data/raw/scheduled_decisions.jsonl.gz,公开脱敏记录,"21,000条计划结果，含精确提示、历史、金额和最终选择；可重建处理表",S1–S5；S8–S10
+docs/api_configuration.md,实验说明,原实验参数、纯预览和可选新实验的运行方法,Methods 3.2–3.3；S1–S5
+docs/data_dictionary.csv,数据字典,逐列解释正式数据和种子数据的字段、编码与单位,Methods；S1–S10
+docs/data_dictionary.md,数据字典,数据结构、单位、缺失编码、配对/路径与公开JSONL投影说明,Methods；S1–S10
+docs/release_status.md,发布状态,记录本地待核对状态；作者引用信息、许可和正式发布链接待后续确认,发布准备
+docs/reproduction_guide.md,复现指南,逐步列出脚本输入、输出、预期数字及图表对应关系,全包
+figures/Fig1.png,论文图件,当前稿件的任务示意图，与当前Word内嵌图文件一致,Fig1
+figures/Fig2.png,论文图件,H0两个框架的单元B率热图，与当前Word内嵌图文件一致,Fig2
+figures/Fig3.png,论文图件,H0按Delta等权汇总的B率及区间，与当前Word内嵌图文件一致,Fig3
+figures/Fig4.png,论文图件,H0单元框架差异热图与a/b/c案例，与当前Word内嵌图文件一致,Fig4
+figures/Fig5.png,论文图件,H0按g等权汇总的B率及区间，与当前Word内嵌图文件一致,Fig5
+figures/FigS1.png,论文图件,H1两个框架的单元B率热图，与当前Word内嵌图文件一致,FigS1
+figures/FigS2.png,论文图件,按g汇总的H1-minus-H0配对历史差异，与当前Word内嵌图文件一致,FigS2
+prompts/blind_prompt.txt,Blind提示,无评价标签的完整当前项目模板，保留金额占位符,S3
+prompts/disclosed_prompt.txt,Disclosed提示,带公平定义与方向性标签的完整当前项目模板,S3
+prompts/history_template.txt,H1历史模板,H1的历史块模板；子记录格式见templates.json,S4
+prompts/system_prompt.txt,系统提示,原实验共享system prompt原文,S3
+prompts/templates.json,完整提示,精确的系统、当前项目、标签及各类历史子模板,S3–S4
+requirements.txt,运行环境,固定Python依赖及传递依赖版本,全包
+results/audit/audit_summary.json,重算/核对结果,N、CR1修正、零方差数、Bootstrap设置与Wald诊断汇总,S10
+results/audit/cell_framing_audit.csv,重算/核对结果,100个H0单元的计数、差异及CR1/点态/同时带区间,Figure 4；Table S7
+results/audit/estimand_sensitivity.csv,重算/核对结果,同一估计对象的路径CR1与共享索引Bootstrap结果,Table 2；Table S8
+results/audit/framing_cell_strata.csv,重算/核对结果,指纹和采集阶段内每个共同单元的框架计数/差异,Results 4.3；S10
+results/audit/framing_strata_sensitivity.csv,重算/核对结果,主要/稀少指纹和采集阶段的共同支持与等权差异,Tables S5–S6
+results/audit/h0_date_fingerprint.csv,重算/核对结果,H0日期×框架×指纹的记录计数和B率,S10
+results/audit/h0_fingerprint_by_framing.csv,重算/核对结果,H0框架×指纹的记录计数和B率,S8、S10
+results/audit/h0_phase_fingerprint.csv,重算/核对结果,H0采集阶段×框架×指纹的计数和B率,S10
+results/audit/payoff_reversal_audit.csv,重算/核对结果,选定相邻Delta水平的非单调变化及Bootstrap区间,Results 4.2
+results/audit/protocol_verification.json,重算/核对结果,"21,000条消息与21,365条请求的核对摘要、目标重试计数",S5、S8
+results/audit/targeted_missingness.csv,重算/核对结果,三个目标组的缺失结果界限及排除成功重试后的计数,S8
+results/audit/wald_rank_audit.csv,重算/核对结果,两项异质性Wald检验的秩、特征值、条件数和统计量,S10
+results/figure_data/Fig1_task_structure.csv,图源数据,图1两方案的公式、基准金额和单位,Figure 1
+results/figure_data/Fig2_cells.csv,图源数据,图2两框架每个单元的n、B、B率和Wilson区间,Figure 2
+results/figure_data/Fig3_marginal_probabilities.csv,图源数据,图3按Delta的等权B率与Bootstrap点态区间,Figure 3
+results/figure_data/Fig4_cell_contrasts.csv,图源数据,图4单元差异与CR1/Bootstrap区间,Figure 4
+results/figure_data/Fig5_marginal_probabilities.csv,图源数据,图5按g的等权B率与Bootstrap点态区间,Figure 5
+results/figure_data/FigS1_cells.csv,图源数据,补图S1的H1单元计数、B率与Wilson区间,Figure S1
+results/figure_data/FigS2_paired_history.csv,图源数据,补图S2的配对历史差异、有效对数和区间,Figure S2
+results/manuscript_tables.csv,重算表格,Table 1–3、S1–S8重算结果的合并CSV；row_index=0为该表表头,Tables 1–3、S1–S8
+results/verification_report.json,已验证结果,独立环境完成全部离线步骤后的机器可读核对结果,全包
+run_all.py,离线入口,一键执行准备、统计、协议核对、表格、生图和校验；不调用模型,全包
+src/analysis/01_prepare_data.py,数据准备代码,从公开计划记录重建正式/种子表，并核对已有处理表,S1、S5
+src/analysis/02_fit_models.py,统计分析代码,描述统计、Wilson区间、M1/M2/M3、CR1、边际/单元差异和配对历史,Methods 3.4–3.6；S6–S7
+src/analysis/03_uncertainty_and_strata.py,敏感性代码,匹配CR1/Bootstrap、Wald秩与条件数、指纹/阶段分层及局部案例,Results 4.2–4.5；S10
+src/analysis/04_verify_protocol.py,协议核对代码,核对所有精确提示/历史与请求载荷，重算重试、缺失界限,S5、S8
+src/analysis/05_export_tables.py,表格代码,从重算结果导出11张表和一份合并表格CSV,Tables 1–3、S1–S8
+src/experiment/experiment_core.py,原实验代码,原提示、金额计算、严格解析、请求与记录模块；由联合入口使用,S3、S5
+src/experiment/resume_experiment.py,原续跑代码,原中断续跑逻辑；恢复原采集需完整原私有状态，离线复现不依赖,Methods 3.3；S1
+src/experiment/run_experiment.py,原实验代码,联合H0/H1采集入口；支持--preview；离线入口不执行采集,Methods 3.2–3.3；S1–S4
+src/figures/plot_figures.py,生图代码,重画六张统计图、导出七份图源数据，并复制当前图1素材,Figures 1–5、S1–S2
+src/offline_executor.py,共用代码,在禁网条件下执行分析、绘图和核对步骤,离线复现基础
+src/package_runtime.py,共用代码,统一相对路径、输入输出参数与禁网钩子,离线复现基础
+src/verification/smoke_check.py,快速核对代码,不依赖第三方包地检查静态哈希、设计网格、记录数和无效值,全包
+src/verification/verify_results.py,结果核对代码,自动核对所有Dataset、11张表、指纹边界、图源与固定环境,全包

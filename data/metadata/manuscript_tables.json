@@ -1,0 +1,528 @@
+{
+  "Table_1": {
+    "caption": "Table 1. Official-API design and sample composition.",
+    "rows": [
+      [
+        "Condition",
+        "Scheduled paths",
+        "Planned choices",
+        "Valid choices",
+        "Invalid"
+      ],
+      [
+        "H0 blind",
+        "500",
+        "5,000",
+        "4,963",
+        "37"
+      ],
+      [
+        "H0 disclosed",
+        "500",
+        "5,000",
+        "4,968",
+        "32"
+      ],
+      [
+        "H1 blind",
+        "500",
+        "5,000",
+        "4,965",
+        "35"
+      ],
+      [
+        "H1 disclosed",
+        "500",
+        "5,000",
+        "4,969",
+        "31"
+      ]
+    ]
+  },
+  "Table_2": {
+    "caption": "Table 2. Overall standardized and selected marginal framing differences in H0.",
+    "rows": [
+      [
+        "Parameter",
+        "Level",
+        "Difference (pp)",
+        "95% CI (pp)",
+        "Holm p"
+      ],
+      [
+        "Overall",
+        "100 cells",
+        "−20.85",
+        "−21.68 to −20.02",
+        "—"
+      ],
+      [
+        "Δ",
+        "1",
+        "−61.20",
+        "−63.24 to −59.15",
+        "< .001"
+      ],
+      [
+        "Δ",
+        "2",
+        "−13.31",
+        "−15.81 to −10.81",
+        "< .001"
+      ],
+      [
+        "Δ",
+        "4.5",
+        "−9.33",
+        "−11.88 to −6.78",
+        "< .001"
+      ],
+      [
+        "Δ",
+        "5",
+        "−11.69",
+        "−14.30 to −9.07",
+        "< .001"
+      ],
+      [
+        "g",
+        "20",
+        "−37.97",
+        "−40.49 to −35.45",
+        "< .001"
+      ],
+      [
+        "g",
+        "50",
+        "−60.29",
+        "−63.16 to −57.42",
+        "< .001"
+      ],
+      [
+        "g",
+        "200",
+        "−12.60",
+        "−14.01 to −11.18",
+        "< .001"
+      ],
+      [
+        "g",
+        "500",
+        "1.65",
+        "−2.52 to 5.82",
+        ".874"
+      ],
+      [
+        "g",
+        "1,000",
+        "4.14",
+        "−0.73 to 9.01",
+        ".287"
+      ]
+    ]
+  },
+  "Table_3": {
+    "caption": "Table 3. Supplementary paired comparison of H1 and H0.",
+    "rows": [
+      [
+        "Framing",
+        "Valid pairs",
+        "Difference (pp)",
+        "95% bootstrap CI (pp)"
+      ],
+      [
+        "Blind",
+        "4,962",
+        "−3.12",
+        "−8.16 to 1.77"
+      ],
+      [
+        "Disclosed",
+        "4,965",
+        "−0.36",
+        "−4.81 to 3.97"
+      ]
+    ]
+  },
+  "Table_S1": {
+    "caption": "Supplementary Table S1. Formal outcome accounting by history and framing condition.",
+    "rows": [
+      [
+        "History",
+        "Framing",
+        "Valid A",
+        "Valid B",
+        "Invalid",
+        "Planned"
+      ],
+      [
+        "H0",
+        "Blind",
+        "1,003",
+        "3,960",
+        "37",
+        "5,000"
+      ],
+      [
+        "H0",
+        "Disclosed",
+        "2,036",
+        "2,932",
+        "32",
+        "5,000"
+      ],
+      [
+        "H1",
+        "Blind",
+        "1,158",
+        "3,807",
+        "35",
+        "5,000"
+      ],
+      [
+        "H1",
+        "Disclosed",
+        "2,057",
+        "2,912",
+        "31",
+        "5,000"
+      ]
+    ]
+  },
+  "Table_S2": {
+    "caption": "Supplementary Table S2. Official-API configuration and access information.",
+    "rows": [
+      [
+        "Field",
+        "Recorded setting"
+      ],
+      [
+        "Provider and interface",
+        "Azure OpenAI; /openai/v1/chat/completions; v1"
+      ],
+      [
+        "Deployment identifier",
+        "gpt-4o"
+      ],
+      [
+        "Returned model",
+        "gpt-4o-2024-11-20"
+      ],
+      [
+        "Access dates",
+        "23–24 October 2026"
+      ],
+      [
+        "Sampling settings",
+        "temperature = 0; top_p = 1; max_tokens = 128; n = 1"
+      ],
+      [
+        "State and storage",
+        "store = false; stream = false; no server conversation or previous_response_id"
+      ],
+      [
+        "Randomization",
+        "Design seed = 41; no API sampling seed"
+      ],
+      [
+        "Execution",
+        "Concurrency = 1; timeout = 120 seconds; at most two extra transport retries"
+      ],
+      [
+        "Client",
+        "Python 3.11.7; requests 2.32.4; no SDK retry layer"
+      ]
+    ]
+  },
+  "Table_S3": {
+    "caption": "Supplementary Table S3. Disclosed target-gap outcomes within returned fingerprints.",
+    "rows": [
+      [
+        "Returned fingerprint",
+        "g = 20: B / valid",
+        "g = 200: B / valid"
+      ],
+      [
+        "fp_4021733588",
+        "0 / 3",
+        "4 / 5"
+      ],
+      [
+        "fp_bbfb354875",
+        "11 / 380",
+        "336 / 387"
+      ],
+      [
+        "fp_eef51934d2",
+        "8 / 114",
+        "96 / 106"
+      ]
+    ]
+  },
+  "Table_S4": {
+    "caption": "Supplementary Table S4. Descriptive fit of H0 conditional-mean specifications.",
+    "rows": [
+      [
+        "Model",
+        "Representation",
+        "Parameters",
+        "Residual SS",
+        "R²"
+      ],
+      [
+        "M1",
+        "Linear Δ and log(g), with framing interactions",
+        "6",
+        "1,604.99",
+        "0.239"
+      ],
+      [
+        "M2",
+        "Additive categorical Δ, g and framing",
+        "20",
+        "1,120.50",
+        "0.469"
+      ],
+      [
+        "M3",
+        "Saturated categorical Δ × g × framing",
+        "200",
+        "468.64",
+        "0.778"
+      ]
+    ]
+  },
+  "Table_S5": {
+    "caption": "Supplementary Table S5. H0 framing comparisons within returned fingerprints.",
+    "rows": [
+      [
+        "Fingerprint",
+        "Blind B/valid",
+        "Disclosed B/valid",
+        "Shared cells",
+        "Difference (pp)"
+      ],
+      [
+        "fp_4021733588",
+        "57/64",
+        "20/44",
+        "22",
+        "−43.18"
+      ],
+      [
+        "fp_bbfb354875",
+        "2,833/3,606",
+        "2,159/3,619",
+        "100",
+        "−19.04"
+      ],
+      [
+        "fp_eef51934d2",
+        "1,070/1,293",
+        "753/1,305",
+        "100",
+        "−25.15"
+      ]
+    ]
+  },
+  "Table_S6": {
+    "caption": "Supplementary Table S6. H0 framing comparisons by collection phase.",
+    "rows": [
+      [
+        "Phase",
+        "Blind B/valid",
+        "Disclosed B/valid",
+        "Shared cells",
+        "Difference (pp)"
+      ],
+      [
+        "Continuation",
+        "2,491/3,105",
+        "1,852/3,120",
+        "100",
+        "−19.96"
+      ],
+      [
+        "Original prefix",
+        "1,469/1,858",
+        "1,080/1,848",
+        "100",
+        "−21.97"
+      ]
+    ]
+  },
+  "Table_S7": {
+    "caption": "Supplementary Table S7. Selected positive cell framing contrasts (main Figure 4).",
+    "rows": [
+      [
+        "Box: Δ, g",
+        "Blind B/n",
+        "Disclosed B/n",
+        "Difference (pp)",
+        "Pointwise interval (pp)",
+        "Sensitivity band (pp)"
+      ],
+      [
+        "a: 3, 1000",
+        "13/49",
+        "49/50",
+        "+71.47",
+        "+58.00 to +83.67",
+        "+43.47 to +99.47"
+      ],
+      [
+        "b: 4.5, 500",
+        "0/50",
+        "32/50",
+        "+64.00",
+        "+50.00 to +78.00",
+        "+36.00 to +92.00"
+      ],
+      [
+        "c: 5, 500",
+        "20/50",
+        "43/50",
+        "+46.00",
+        "+30.00 to +62.00",
+        "+18.00 to +74.00"
+      ]
+    ]
+  },
+  "Table_S8": {
+    "caption": "Supplementary Table S8. Matched framing estimands under two uncertainty procedures.",
+    "rows": [
+      [
+        "Estimand",
+        "Difference (pp)",
+        "Path-CR1 95% CI (pp)",
+        "Shared-index 95% interval (pp)"
+      ],
+      [
+        "Overall",
+        "−20.85",
+        "−21.68 to −20.02",
+        "−21.61 to −20.12"
+      ],
+      [
+        "Δ = 1",
+        "−61.20",
+        "−63.24 to −59.15",
+        "−63.40 to −58.98"
+      ],
+      [
+        "Δ = 2",
+        "−13.31",
+        "−15.81 to −10.81",
+        "−15.69 to −11.00"
+      ],
+      [
+        "Δ = 3",
+        "−29.80",
+        "−32.85 to −26.74",
+        "−32.62 to −27.00"
+      ],
+      [
+        "Δ = 4",
+        "−35.24",
+        "−37.91 to −32.58",
+        "−38.10 to −32.40"
+      ],
+      [
+        "Δ = 4.5",
+        "−9.33",
+        "−11.88 to −6.78",
+        "−11.93 to −6.91"
+      ],
+      [
+        "Δ = 4.6",
+        "−9.20",
+        "−12.09 to −6.31",
+        "−11.60 to −6.80"
+      ],
+      [
+        "Δ = 4.7",
+        "−9.80",
+        "−12.69 to −6.91",
+        "−13.20 to −6.60"
+      ],
+      [
+        "Δ = 4.8",
+        "−9.97",
+        "−12.54 to −7.40",
+        "−12.60 to −7.27"
+      ],
+      [
+        "Δ = 4.9",
+        "−18.97",
+        "−21.15 to −16.80",
+        "−21.16 to −16.77"
+      ],
+      [
+        "Δ = 5",
+        "−11.69",
+        "−14.30 to −9.07",
+        "−14.00 to −9.40"
+      ],
+      [
+        "g = 0.5",
+        "0.00",
+        "0.00 to 0.00",
+        "0.00 to 0.00"
+      ],
+      [
+        "g = 2",
+        "−5.40",
+        "−6.80 to −4.00",
+        "−6.80 to −4.00"
+      ],
+      [
+        "g = 4",
+        "−21.50",
+        "−23.66 to −19.35",
+        "−24.04 to −19.04"
+      ],
+      [
+        "g = 8",
+        "−37.00",
+        "−38.98 to −35.02",
+        "−39.20 to −34.80"
+      ],
+      [
+        "g = 20",
+        "−37.97",
+        "−40.49 to −35.45",
+        "−41.20 to −34.71"
+      ],
+      [
+        "g = 50",
+        "−60.29",
+        "−63.16 to −57.42",
+        "−62.38 to −58.27"
+      ],
+      [
+        "g = 100",
+        "−39.53",
+        "−41.99 to −37.07",
+        "−42.60 to −36.43"
+      ],
+      [
+        "g = 200",
+        "−12.60",
+        "−14.01 to −11.18",
+        "−14.00 to −11.39"
+      ],
+      [
+        "g = 500",
+        "+1.65",
+        "−2.52 to +5.82",
+        "−3.60 to +6.65"
+      ],
+      [
+        "g = 1000",
+        "+4.14",
+        "−0.73 to +9.01",
+        "−1.31 to +9.59"
+      ]
+    ]
+  }
+}

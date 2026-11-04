@@ -1,0 +1,1649 @@
+{
+  "reason": "Structural zero-variance M3 coefficients use empty inference fields, consistently with the manuscript. Tiny nonzero variances in treatment-coded numerical covariance were floating-point artefacts.",
+  "estimator": "Algebraically equivalent saturated cell-indicator OLS and path-CR1 score covariance.",
+  "original_file_sha256": "abf7b21f7aced40d368a0cc3bf61579fc5a8441f24bb752b559e9c5fb26039cf",
+  "normalized_file_sha256": "66331f1dc7f907a601b12c4c86afd61f032993c1671201abfa18fa005b0d4d09",
+  "changed_rows": 91,
+  "coefficient_point_estimates": "unchanged",
+  "manuscript_table_numbers": "unchanged",
+  "changes": [
+    {
+      "model": "M3",
+      "term": "Intercept",
+      "before": {
+        "cluster_se": 1.2015316100821884e-08,
+        "p": 0.0,
+        "low": 0.999999976449964,
+        "high": 1.000000023550003,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.3.0]",
+      "before": {
+        "cluster_se": 1.5000351964429634e-08,
+        "p": 0.99999880231238,
+        "low": -2.9400667333571365e-08,
+        "high": 2.94007123669928e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.0]",
+      "before": {
+        "cluster_se": 1.466530219771944e-08,
+        "p": 0.9999995069596432,
+        "low": -2.8743983245334663e-08,
+        "high": 2.8744001369725543e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.5]",
+      "before": {
+        "cluster_se": 1.5874225881433072e-08,
+        "p": 0.9999989044296898,
+        "low": -3.1113460930808354e-08,
+        "high": 3.11135045244093e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.6]",
+      "before": {
+        "cluster_se": 1.6446483494229304e-08,
+        "p": 0.9999992453519858,
+        "low": -3.2235092093424035e-08,
+        "high": 3.2235123203954846e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.7]",
+      "before": {
+        "cluster_se": 1.3160685331393796e-08,
+        "p": 0.9999989180111944,
+        "low": -2.579492540269672e-08,
+        "high": 2.5794961096366966e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.8]",
+      "before": {
+        "cluster_se": 1.3177601068173955e-08,
+        "p": 0.9999988078935412,
+        "low": -2.5828078405179653e-08,
+        "high": 2.5828117782062263e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.9]",
+      "before": {
+        "cluster_se": 1.5257459101885232e-08,
+        "p": 0.999998670634848,
+        "low": -2.9904594419057234e-08,
+        "high": 2.990464526033286e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.5.0]",
+      "before": {
+        "cluster_se": 1.5350997827678796e-08,
+        "p": 0.9999989426454652,
+        "low": -3.008793539914824e-08,
+        "high": 3.008797608535264e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(g)[T.2.0]",
+      "before": {
+        "cluster_se": 1.3879454366088233e-08,
+        "p": 0.999998931760856,
+        "low": -2.7203711975175053e-08,
+        "high": 2.720374913989081e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.5972745794057153e-08,
+        "p": 0.999999139001648,
+        "low": -3.1306564520139564e-08,
+        "high": 3.1306598992564485e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.3878814035515706e-08,
+        "p": 0.999999184622274,
+        "low": -2.7202461326511642e-08,
+        "high": 2.720248969270992e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(g)[T.20.0]",
+      "before": {
+        "cluster_se": 1.4294157745503231e-08,
+        "p": 0.9999993820283576,
+        "low": -2.8016538110181103e-08,
+        "high": 2.801656025219156e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(g)[T.100.0]",
+      "before": {
+        "cluster_se": 1.4917760699014666e-08,
+        "p": 0.9999990027722876,
+        "low": -2.9238792325260825e-08,
+        "high": 2.9238829614876665e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(g)[T.200.0]",
+      "before": {
+        "cluster_se": 1.2190876627949146e-08,
+        "p": 0.9999986094053354,
+        "low": -2.389409694388719e-08,
+        "high": 2.389413943767345e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(g)[T.1000.0]",
+      "before": {
+        "cluster_se": 2.7889334549972553e-08,
+        "p": 0.0,
+        "low": -1.0000000546630785,
+        "high": -0.9999999453368869,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.2.0]:C(g)[T.2.0]",
+      "before": {
+        "cluster_se": 1.372288451735352e-08,
+        "p": 0.9999994141971013,
+        "low": -2.6896863729286853e-08,
+        "high": 2.689684357873896e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.3.0]:C(g)[T.2.0]",
+      "before": {
+        "cluster_se": 1.2783608260816644e-08,
+        "p": 0.9999985311681076,
+        "low": -2.505589572464448e-08,
+        "high": 2.505584865775677e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.5]:C(g)[T.2.0]",
+      "before": {
+        "cluster_se": 1.5303654922769523e-08,
+        "p": 0.9999989906556704,
+        "low": -2.9995183008142263e-08,
+        "high": 2.999514428911427e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.6]:C(g)[T.2.0]",
+      "before": {
+        "cluster_se": 1.243133256586314e-08,
+        "p": 0.999999055833723,
+        "low": -2.4365426539546832e-08,
+        "high": 2.4365397118636683e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.7]:C(g)[T.2.0]",
+      "before": {
+        "cluster_se": 1.3023201172715255e-08,
+        "p": 0.999998741641838,
+        "low": -2.5525494837647856e-08,
+        "high": 2.5525453759395945e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.9]:C(g)[T.2.0]",
+      "before": {
+        "cluster_se": 1.2481137686691753e-08,
+        "p": 0.9999985450436036,
+        "low": -2.4463052625487842e-08,
+        "high": 2.4463007106343823e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.5.0]:C(g)[T.2.0]",
+      "before": {
+        "cluster_se": 1.3484490515504755e-08,
+        "p": 0.999998720638682,
+        "low": -2.6429623031982725e-08,
+        "high": 2.6429579788795922e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.2.0]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.5870644050594683e-08,
+        "p": 0.99999904293657,
+        "low": -3.1106481376021005e-08,
+        "high": 3.1106443302310155e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.3.0]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.7348707450657416e-08,
+        "p": 0.9999988428464692,
+        "low": -3.400349176371783e-08,
+        "high": 3.400344144285924e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.0]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.078249136017029e-08,
+        "p": 0.9999990346850348,
+        "low": -2.1133696111054316e-08,
+        "high": 2.113367002081323e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.5]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.0021255496873796e-08,
+        "p": 0.9999985334701622,
+        "low": -1.9641679193166504e-08,
+        "high": 1.9641642354578768e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.6]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.290520956595191e-08,
+        "p": 0.9999992724026726,
+        "low": -2.5294222517629804e-08,
+        "high": 2.5294198980901682e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.7]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.4282339832185608e-08,
+        "p": 0.9999988680850456,
+        "low": -2.7993406332653987e-08,
+        "high": 2.7993365809513588e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.8]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.1233510494781788e-08,
+        "p": 0.9999984623078144,
+        "low": -2.2017702219121292e-08,
+        "high": 2.2017658920423325e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.9]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.4505841733659981e-08,
+        "p": 0.9999985946931668,
+        "low": -2.843147534698092e-08,
+        "high": 2.8431424248966205e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.5.0]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.3769390341635404e-08,
+        "p": 0.9999988130512972,
+        "low": -2.698802555322019e-08,
+        "high": 2.6987984585990583e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.2.0]:C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.3131648029451162e-08,
+        "p": 0.9999991015487348,
+        "low": -2.5738044924507186e-08,
+        "high": 2.5738015350941367e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.3.0]:C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.3738456538748968e-08,
+        "p": 0.999999098112336,
+        "low": -2.6927390345192534e-08,
+        "high": 2.6927359286703416e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.5]:C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.4200562569255452e-08,
+        "p": 0.9999989473390244,
+        "low": -2.7833121370754223e-08,
+        "high": 2.7833083900727145e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.6]:C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.537044531740763e-08,
+        "p": 0.9999990087292576,
+        "low": -3.012609191795498e-08,
+        "high": 3.0126053726282936e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.7]:C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.1113171599945949e-08,
+        "p": 0.9999993264513348,
+        "low": -2.1781825717278614e-08,
+        "high": 2.1781806954509497e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.8]:C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.4016717270940414e-08,
+        "p": 0.9999989106228612,
+        "low": -2.74727849885126e-08,
+        "high": 2.7472746713573823e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.9]:C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.3368605784188721e-08,
+        "p": 0.999998625064658,
+        "low": -2.620249037413765e-08,
+        "high": 2.6202444299882133e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.5.0]:C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.3049112487882028e-08,
+        "p": 0.99999882220747,
+        "low": -2.557627973861825e-08,
+        "high": 2.557624121387929e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.2.0]:C(g)[T.20.0]",
+      "before": {
+        "cluster_se": 1.0981100135598023e-08,
+        "p": 0.0,
+        "low": -1.0000000215229676,
+        "high": -0.999999978477055,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.5]:C(g)[T.20.0]",
+      "before": {
+        "cluster_se": 1.1785909042224408e-08,
+        "p": 0.0,
+        "low": -1.0000000231003925,
+        "high": -0.9999999768996288,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.6]:C(g)[T.20.0]",
+      "before": {
+        "cluster_se": 1.3146785259179773e-08,
+        "p": 0.0,
+        "low": -1.000000025767707,
+        "high": -0.9999999742323088,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.5.0]:C(g)[T.20.0]",
+      "before": {
+        "cluster_se": 1.2348789016281518e-08,
+        "p": 0.9999986711249812,
+        "low": -2.4203647038793304e-08,
+        "high": 2.4203605905030242e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.2.0]:C(g)[T.100.0]",
+      "before": {
+        "cluster_se": 1.3752612481741285e-08,
+        "p": 0.0,
+        "low": -1.000000026955144,
+        "high": -0.9999999730449032,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.3.0]:C(g)[T.100.0]",
+      "before": {
+        "cluster_se": 1.2769832587718824e-08,
+        "p": 0.9999984157867258,
+        "low": -2.5028897226647225e-08,
+        "high": 2.5028846517210572e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.5]:C(g)[T.100.0]",
+      "before": {
+        "cluster_se": 1.1961660057779524e-08,
+        "p": 0.9999986281170709,
+        "low": -2.3444874280129395e-08,
+        "high": 2.3444833146366333e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.9]:C(g)[T.100.0]",
+      "before": {
+        "cluster_se": 1.0275123267183924e-08,
+        "p": 0.9999981820231602,
+        "low": -2.013926501550852e-08,
+        "high": 2.0139218191852456e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.5.0]:C(g)[T.100.0]",
+      "before": {
+        "cluster_se": 1.0529941832377049e-08,
+        "p": 0.9999983869059408,
+        "low": -2.0638707279985516e-08,
+        "high": 2.0638664702932515e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.2.0]:C(g)[T.200.0]",
+      "before": {
+        "cluster_se": 1.3243949913008449e-08,
+        "p": 0.999999244192486,
+        "low": -2.5958154375016736e-08,
+        "high": 2.5958129283976383e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.3.0]:C(g)[T.200.0]",
+      "before": {
+        "cluster_se": 1.3356397952728913e-08,
+        "p": 0.9999986022531434,
+        "low": -2.6178563385298905e-08,
+        "high": 2.6178516589398417e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.0]:C(g)[T.200.0]",
+      "before": {
+        "cluster_se": 1.4275713161629936e-08,
+        "p": 0.9999995796009,
+        "low": -2.7980405318555668e-08,
+        "high": 2.7980390275033684e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.5]:C(g)[T.200.0]",
+      "before": {
+        "cluster_se": 1.0139286046773342e-08,
+        "p": 0.9999978442416488,
+        "low": -1.9873028046428884e-08,
+        "high": 1.9872973256922626e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.7]:C(g)[T.200.0]",
+      "before": {
+        "cluster_se": 1.6324552367497372e-08,
+        "p": 0.9999988041647938,
+        "low": -3.199614710683475e-08,
+        "high": 3.199609817375494e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.8]:C(g)[T.200.0]",
+      "before": {
+        "cluster_se": 1.2383807811804637e-08,
+        "p": 0.9999985224316866,
+        "low": -2.4272286244181443e-08,
+        "high": 2.427224037809273e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.9]:C(g)[T.200.0]",
+      "before": {
+        "cluster_se": 1.3933605700799268e-08,
+        "p": 0.999998468635756,
+        "low": -2.730989391606368e-08,
+        "high": 2.7309840431069466e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.5.0]:C(g)[T.200.0]",
+      "before": {
+        "cluster_se": 1.3777974425310489e-08,
+        "p": 0.9999984335569077,
+        "low": -2.700485692315172e-08,
+        "high": 2.70048028240654e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.5]:C(g)[T.1000.0]",
+      "before": {
+        "cluster_se": 2.7421806583056026e-08,
+        "p": 0.0,
+        "low": 0.9999999462532464,
+        "high": 1.0000000537467282,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "C(Delta)[T.4.9]:C(g)[T.1000.0]",
+      "before": {
+        "cluster_se": 2.6092386494139963e-08,
+        "p": 0.0,
+        "low": 0.9999999488588988,
+        "high": 1.0000000511410538,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D",
+      "before": {
+        "cluster_se": 1.4693526360503814e-08,
+        "p": 0.999998183851692,
+        "low": -2.8799278221118865e-08,
+        "high": 2.8799345112056092e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.2.0]",
+      "before": {
+        "cluster_se": 1.529223172685923e-08,
+        "p": 0.9999980609008918,
+        "low": -2.997281134935984e-08,
+        "high": 2.997273701992834e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.3.0]",
+      "before": {
+        "cluster_se": 2.0292145492094654e-08,
+        "p": 0.9999982800392132,
+        "low": -3.977264890729269e-08,
+        "high": 3.977256142171835e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.0]",
+      "before": {
+        "cluster_se": 1.3494896145103753e-08,
+        "p": 0.9999979109484496,
+        "low": -2.6450031777251106e-08,
+        "high": 2.6449961111555592e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.5]",
+      "before": {
+        "cluster_se": 1.4058342568376598e-08,
+        "p": 0.9999979253637928,
+        "low": -2.7554387988111225e-08,
+        "high": 2.7554314879925047e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.6]",
+      "before": {
+        "cluster_se": 1.4014056578777729e-08,
+        "p": 0.9999978540173652,
+        "low": -2.746758858647604e-08,
+        "high": 2.746751320233266e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.7]",
+      "before": {
+        "cluster_se": 1.5561576579960062e-08,
+        "p": 0.9999979251140512,
+        "low": -3.050073056435097e-08,
+        "high": 3.0500649629092475e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.8]",
+      "before": {
+        "cluster_se": 1.2827554454403562e-08,
+        "p": 0.9999973913795333,
+        "low": -2.5142048669305738e-08,
+        "high": 2.5141964791956227e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.9]",
+      "before": {
+        "cluster_se": 1.4537978978652894e-08,
+        "p": 0.9999978018739428,
+        "low": -2.8494478849455293e-08,
+        "high": 2.8494398746864063e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.5.0]",
+      "before": {
+        "cluster_se": 1.957520901747676e-08,
+        "p": 0.999998348278782,
+        "low": -3.836745019739484e-08,
+        "high": 3.836736915111404e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.3715218039326293e-08,
+        "p": 0.0,
+        "low": -1.0000000268818678,
+        "high": -0.9999999731182132,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.7583723925225386e-08,
+        "p": 0.0,
+        "low": -1.0000000344641362,
+        "high": -0.9999999655359384,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(g)[T.20.0]",
+      "before": {
+        "cluster_se": 1.0296652786361204e-08,
+        "p": 0.0,
+        "low": -1.0000000201814692,
+        "high": -0.9999999798185903,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(g)[T.50.0]",
+      "before": {
+        "cluster_se": 1.5150280367369664e-08,
+        "p": 0.9999982824574828,
+        "low": -2.9694582132845893e-08,
+        "high": 2.96945169072432e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(g)[T.100.0]",
+      "before": {
+        "cluster_se": 1.2999666534056622e-08,
+        "p": 0.0,
+        "low": -1.0000000254793842,
+        "high": -0.9999999745206912,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(g)[T.1000.0]",
+      "before": {
+        "cluster_se": 3.185252991156288e-08,
+        "p": 0.999999090601755,
+        "low": -6.243099493095615e-08,
+        "high": 6.243092232237034e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.5]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.1316961361297224e-08,
+        "p": 0.0,
+        "low": 0.999999977818793,
+        "high": 1.0000000221812817,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.6]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.732189320815776e-08,
+        "p": 0.0,
+        "low": 0.9999999660491312,
+        "high": 1.0000000339509525,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.7]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.8431614674839932e-08,
+        "p": 0.0,
+        "low": 0.9999999638740732,
+        "high": 1.0000000361260026,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.8]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.824346685326689e-08,
+        "p": 0.0,
+        "low": 0.999999964242852,
+        "high": 1.000000035757242,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.9]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.93781029401076e-08,
+        "p": 0.0,
+        "low": 0.9999999620189522,
+        "high": 1.0000000379811158,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.5.0]:C(g)[T.4.0]",
+      "before": {
+        "cluster_se": 1.5006771962059012e-08,
+        "p": 0.0,
+        "low": 0.9999999705867698,
+        "high": 1.000000029413316,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.2.0]:C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.2103193488650412e-08,
+        "p": 0.9999978390723756,
+        "low": -2.372222645842e-08,
+        "high": 2.3722292017089604e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.7]:C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.663753449954882e-08,
+        "p": 0.0,
+        "low": 0.999999967390474,
+        "high": 1.0000000326096097,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.8]:C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.1465338087416074e-08,
+        "p": 0.0,
+        "low": 0.999999977527986,
+        "high": 1.0000000224721113,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.5.0]:C(g)[T.8.0]",
+      "before": {
+        "cluster_se": 1.5399534619763164e-08,
+        "p": 0.0,
+        "low": 0.9999999698169496,
+        "high": 1.000000030183125,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.2.0]:C(g)[T.20.0]",
+      "before": {
+        "cluster_se": 1.0990703793446043e-08,
+        "p": 0.0,
+        "low": 0.9999999784582528,
+        "high": 1.0000000215418117,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.0]:C(g)[T.20.0]",
+      "before": {
+        "cluster_se": 1.1514109942577804e-08,
+        "p": 0.0,
+        "low": 0.9999999774323864,
+        "high": 1.0000000225676977,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.5.0]:C(g)[T.20.0]",
+      "before": {
+        "cluster_se": 1.0780564168993761e-08,
+        "p": 0.9999970398563174,
+        "low": -2.1129865775443305e-08,
+        "high": 2.1129945767012236e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.2.0]:C(g)[T.50.0]",
+      "before": {
+        "cluster_se": 1.0132658902696592e-08,
+        "p": 0.9999976002322264,
+        "low": -1.985998097366329e-08,
+        "high": 1.9860041924907344e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.4.9]:C(g)[T.50.0]",
+      "before": {
+        "cluster_se": 1.264973245198188e-08,
+        "p": 0.0,
+        "low": -1.0000000247934364,
+        "high": -0.9999999752064852,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    },
+    {
+      "model": "M3",
+      "term": "D:C(Delta)[T.3.0]:C(g)[T.100.0]",
+      "before": {
+        "cluster_se": 1.15842533014813e-08,
+        "p": 0.9999969756730892,
+        "low": -2.2705092561582725e-08,
+        "high": 2.2705180380223973e-08,
+        "variance_status": "estimated"
+      },
+      "after": {
+        "cluster_se": 0.0,
+        "p": null,
+        "low": null,
+        "high": null,
+        "variance_status": "boundary_no_empirical_variation"
+      }
+    }
+  ]
+}

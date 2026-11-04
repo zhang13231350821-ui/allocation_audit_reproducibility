@@ -1,0 +1,6 @@
+stratum_type,stratum,blind_n,disclosed_n,blind_B,disclosed_B,shared_cells,shared_cell_mean_difference
+system_fingerprint,fp_4021733588,64,44,57,20,22,-0.4318181818181818
+system_fingerprint,fp_bbfb354875,3606,3619,2833,2159,100,-0.1904433662209421
+system_fingerprint,fp_eef51934d2,1293,1305,1070,753,100,-0.2515475080475081
+collection_phase,continuation,3105,3120,2491,1852,100,-0.19961521539296279
+collection_phase,initial_prefix,1858,1848,1469,1080,100,-0.21965224665554456
